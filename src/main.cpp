@@ -5,7 +5,7 @@
 #include <thread>
 
 void die() {
-  std::cerr << "Invalid argument\n" << "Usage: timer HH:MM:SS" << std::endl;
+  std::cerr << "Invalid argument\n" << "Usage: countdown HH:MM:SS" << std::endl;
   exit(1);
 }
 
