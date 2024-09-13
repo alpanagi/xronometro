@@ -8,3 +8,7 @@ add_executable(countdown)
 target_sources(countdown PRIVATE
     src/main.cpp
 )
+target_link_libraries(countdown
+    ${PULSEAUDIO_LIBRARY}
+    pulse-simple
+)
