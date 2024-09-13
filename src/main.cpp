@@ -22,7 +22,6 @@ int main(int argc, char *argv[]) {
   }
 
   int hours = 0, minutes = 0, seconds = 0;
-  std::cout << "SIZE " << matches[2].str().length() << std::endl;
   if (matches[2].str().length() == 0) {
     minutes = std::atoi(matches[1].str().c_str());
   } else {
