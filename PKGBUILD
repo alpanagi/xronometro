@@ -10,7 +10,7 @@ license=("GPL-3.0-or-later")
 depends=(gcc-libs glibc)
 makedepends=(cmake)
 source=("https://github.com/alpanagi/countdown/archive/v${pkgver}.tar.gz")
-b2sums=("d3fdd6de30613cfc5080efa55a7acdaa05e4839415ea109a42458980f8370d0b8930596306b723e87fa0ee07cc17c72d2126ece436eeb988f1d89a597a976a24")
+b2sums=("ccc21e7428742ecb814d38175aa5b8faedd6b8c9df78613f37c5e73cb88e3d251f8928c06f67125c3bf06fd96a37b71c711d4bee2c2f4b39811fcbeefbe72130")
 
 build() {
 	cd "${pkgname}-${pkgver}"
