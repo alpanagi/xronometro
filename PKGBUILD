@@ -10,7 +10,7 @@ license=("GPL-3.0-or-later")
 depends=(gcc-libs glibc)
 makedepends=(cmake)
 source=("https://github.com/alpanagi/xronometro/archive/v${pkgver}.tar.gz")
-b2sums=("babcc826d58b0e7c898219a1fa27fab1f556cc7056c41917af4881d5d2afac81758cd5d91c87cc2f0b5f9ec3910dbdd24c5ce743be292152ba6ecd3f98d41bcc")
+b2sums=("c57b05ea26d3a1fd2848a39a6ab0e6dbb559482d323dc67c8e5679b390bed5a254365002d257fc62b519127091bd2727c95df4004a282b12eed6c8efab82257c")
 
 build() {
 	cd "${pkgname}-${pkgver}"
